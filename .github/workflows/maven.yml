@@ -28,7 +28,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: yamini17/dockerize_1
+        image: yamini17/springboot-new-images
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
